@@ -4,7 +4,7 @@ on:
   pull_request:
 jobs:
   build:
-    runs-on: ubuntu_20.04
+    runs-on: ubuntu_latest
     steps:
       - name: Check out code
         uses: actions/checkout@v2
