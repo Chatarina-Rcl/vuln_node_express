@@ -4,7 +4,7 @@ const searchService = require('../service/search');
 
 /* GET search listing. */
 router.get('/', function (req, res, next) {
-  res.render('search', {title: 'Search for items'});
+  res.render('search', {title: 'Searching for items'});
 });
 
 router.post('/', function (req, res, next) {
